@@ -1,23 +1,19 @@
 {
-  "name": "livestream-server",
-  "version": "0.0.1",
-  "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
-  "main": "src/app.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^2.4.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  },
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  
-  "keywords": [
-    "LiveStream",
-    "Server"
-  ]
-  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0"
+  }
 }
